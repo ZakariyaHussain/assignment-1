@@ -115,6 +115,9 @@
     margin: 0 auto;
     padding: 0;
 }
+body{
+    background-color: #F1F1F3;
+}
 /* Shared style */
 .section-title{
     font-family: "Fira Sans", serif;
@@ -122,6 +125,13 @@
     font-style: normal;
     font-size: 40px;
     color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.subtitle{
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
 }
 .description{
     font-family: "Fira Sans", serif;
@@ -130,6 +140,13 @@
     font-size: 16px;
     line-height: 24px;
     color: #0E0E0E70;
+}
+.primary-btn{
+    background-color: #006A50;
+    padding: 13px 26px;
+    border-radius: 8px;
+    color: #ffffff;
+    border: none;
 }
 
 /* Banner style */
@@ -141,13 +158,14 @@
     justify-content: space-between;
     align-items: center;
 }
-.banner-content .subtitle{
-    font-size: 24px;
-}
+
 .banner-content .title{
     font-size: 56px;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+.banner-content .subtitle{
+    color: #0E0E0E50;
 }
 .banner-content button{
     background-color: #006A50;
@@ -167,7 +185,7 @@
 .cards{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin: 32px 0;
 }
 .card-title{
     font-family: "Fira Sans", serif;
@@ -230,4 +248,63 @@
     font-style: normal;
     font-size: 16px;
     margin-top: 24px; 
+}
+.quote{
+    background-image: url(../assets/image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 48px 24px;
+    border: 1px solid #0E0E0E15;
+    
+}
+/* .quote .quote-content{
+     
+} */
+.quote .subtitle{
+    color: #0E0E0E80;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+/* news section start */
+#news{
+
+}
+.news-content{
+    margin-bottom: 32px;
+}
+
+.news-card{
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+.news-image img{
+    border-radius: 24px;
+}
+.news{
+    /* display: flex;
+    flex-direction: column;
+    text-align: left; */
+}
+.news h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #0E0E0E80;
+}
+.news img{
+    margin: 12px 0;
+}
+.news p{
+    margin-top: 12px;
+    margin-bottom: 32px;
 }
