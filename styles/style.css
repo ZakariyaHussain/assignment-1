@@ -1,28 +1,5 @@
 /* font style */
-.fira-sans-thin {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+ 
   .fira-sans-medium {
     font-family: "Fira Sans", serif;
     font-weight: 500;
@@ -41,107 +18,37 @@
     font-style: normal;
   }
   
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
   .fira-sans-black {
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: normal;
   }
-  
-  /* .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  } */
-  /* End font style  */
+ /* End font style  */
 
-
-/* Start css style */
-
-*{
-    margin: 0 auto;
-    padding: 0;
-}
-body{
-    background-color: #F1F1F3;
-}
-/* Shared style */
-.section-title{
+ /* Shared style */
+  .section-title{
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
     color: #0E0E0E;
     margin-bottom: 24px;
-}
-.subtitle{
+  }
+  .subtitle{
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
-}
-.description{
+  }
+  .description{
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     color: #0E0E0E70;
-}
-.primary-btn{
+  }
+  .primary-btn{
     background-color: #006A50;
     padding: 13px 26px;
     border-radius: 8px;
@@ -149,21 +56,62 @@ body{
     border: none;
     cursor: pointer;
     transition: transform .3s;
+  }
+  .primary-btn:hover{ 
+    transform: scale(1.2);
+  }
+
+/* Start css style */
+
+*{
+  margin: 0 auto;
+  padding: 0;
 }
-.primary-btn:hover{
-  
-  
-  transform: scale(1.2);
+body{
+  background-color: #F5F5F5;
+  font-family: "Fira Sans", serif;
+}
+
+/* nav style */
+.navbar{
+  margin: 0 auto;
+}
+nav{
+  width: 1280px;
+  padding: 16px 160px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h2{
+  font-size: 32px;
+  text-align: left;
+  margin: 0;
+}
+.login-btn{
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006A50;
+  font-size: 18px;
+  font-weight: 600;
+  color: #006A50;
+  transition: .3s;
+  margin: 0;
+}
+.login-btn:hover{
+  transform: scale(1.1);
 }
 
 /* Banner style */
 #banner{
-    width: 100%;
+    width: 1280px;
     height: 560px;
     background-color: #C6E4D6;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px auto;
 }
 
 .banner-content .title{
@@ -187,9 +135,27 @@ body{
 .banner-content button:hover{
   transform: scale(1.2);
 }
+/* main style start */
+main{
+  width: 1280px;
+  margin: 0 auto;
+}
 
+/* pillars section */
+#pillars{
+  margin: 60px auto;
+}
+.pillars-cards{
+  display: flex;
+  gap: 24px;
+}
+.card{
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  margin-left: 0;
+}
 /* Vision section */
-
 #vision{
     width: 100%;
     margin: 80px 0;
@@ -253,7 +219,7 @@ body{
     font-style: normal;
     font-size: 16px;
     margin-top: 24px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 .card-2 button:hover{
   background-color: #ffffff;
@@ -285,8 +251,11 @@ body{
   background-color: #ffffff;
   color: #FFC239;
 }
+
+/* quote start */
 .quote{
     background-image: url(../assets/image/quote-bg.png);
+    background-position: 20px 20px;
     background-repeat: no-repeat;
     background-color: #ffffff;
     border-radius: 16px;
@@ -299,6 +268,45 @@ body{
     line-height: 24px;
     margin-top: 12px;
     margin-bottom: 4px;
+}
+
+/* faq section start */
+#opinion{
+  margin: 80px auto;
+}
+.qus-ans{
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+}
+.qus-subtitle{
+  background-color: #C6E4D6;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.qus-subtitle h4{
+  margin: 0;
+}
+.qus{
+  display: flex;
+  justify-content: space-between;
+}
+.question{
+  width: 100%;
+}
+.question, .ans{
+  background-color: #ffffff10;
+  padding: 24px;
+  border: 1px solid #0E0E0E15;
+}
+
+select{
+  background-color: #09A15C15;
+  border-radius: 4px;
+  border: 1px solid #0E0E0E;
+  padding: 10px 14px;
 }
 
 /* news section start */
@@ -334,7 +342,7 @@ body{
     margin-bottom: 32px;
 }
 
-/* amount section */
+/* amount/donate section */
 #donate{
   margin: 80px auto;
 }
@@ -378,9 +386,11 @@ body{
 .donate-input{
   text-align: center;
 }
+
+/* subscribe section */
 #subscribe{
   background-color: #C6E4D6;
-  
+
 }
 .subscribe{
   width: 750px;
@@ -413,7 +423,7 @@ body{
 /* footer section */
 
 .top h2{
-  font-family: 32px;
+  font-size: 32px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 32px;

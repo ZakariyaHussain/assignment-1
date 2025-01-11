@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-1</title>
     <link rel="stylesheet" href="styles/style.css">
-    <!-- icons link -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +12,12 @@
 </head>
 <body>
     <header>
-        <!-- <nav>
-
-        </nav> -->
+        <div class="navbar">
+            <nav>
+                <h2 class="logo">Bangladesh 2.0</h2>
+                <button class="login-btn">Sign In</button>
+            </nav>
+        </div>
         <div id="banner">
             <div class="banner-content">
                 <h4 class="subtitle">Bangladesh 2.0</h4>
@@ -30,10 +30,36 @@
             </div>
         </div>
     </header>
+    
+    <!-- main part start -->
     <main>
         <!-- Bangladesh 2.0 -->
         <section id="pillars">
-
+            <div class="pillars-content">
+                <h2 class="section-title">Pillars of "Bangladesh 2.0"</h2>
+            </div>
+            <div class="pillars-cards">
+                <div class="card">
+                    <img src="assets/image/card-icon.png" alt="" class="card-image">
+                    <h4 class="card-title">Innovation</h4>
+                    <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+                </div>
+                <div class="card">
+                    <img src="assets/image/card-icon.png" alt="" class="card-image">
+                    <h4 class="card-title">Sustainability</h4>
+                    <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+                </div>
+                <div class="card">
+                    <img src="assets/image/card-icon.png" alt="" class="card-image">
+                    <h4 class="card-title">Infrastructure</h4>
+                    <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+                </div>
+                <div class="card">
+                    <img src="assets/image/card-icon.png" alt="" class="card-image">
+                    <h4 class="card-title">Empowerment</h4>
+                    <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+                </div>
+            </div>
         </section>
 
         <!-- Vision section start -->
@@ -51,14 +77,14 @@
                 </div>
                 <div class="card-2">
                     <img src="assets/image/card-icon.png" alt="" class="card-image">
-                    <h4 class="card-title">Digital Transformation</h4>
-                    <p class="description">Creating a nationwide digital ecosystem to <br> enhance connectivity and access to services for <br> all citizens.</p>
+                    <h4 class="card-title">Green Energy</h4>
+                    <p class="description">Investments in solar and wind energy to ensure <br> a sustainable and eco-friendly future.</p>
                     <button>Learn More</button>
                 </div>
                 <div class="card-3">
                     <img src="assets/image/card-icon.png" alt="" class="card-image">
-                    <h4 class="card-title">Digital Transformation</h4>
-                    <p class="description">Creating a nationwide digital ecosystem to <br> enhance connectivity and access to services for <br> all citizens.</p>
+                    <h4 class="card-title">Modern Infrastructure</h4>
+                    <p class="description">Building state-of-the-art infrastructure to support <br> economic growth and global competitiveness.</p>
                     <button>Learn More</button>
                 </div>
             </div>
@@ -71,7 +97,43 @@
 
         <!-- opinion section start -->
         <section id="opinion">
-
+            <h2 class="section-title">Your Opinion Matters</h2>
+            <div class="qus-ans">
+                <div class="qus-subtitle">
+                    <h4>Questions</h4>
+                    <h4>Select Your Opinion</h4>
+                </div>
+                <div class="qus">
+                    <div class="question">
+                        <h4>Do you believe Bangladesh is on the right path toward becoming a developed nation?</h4>
+                    </div>
+                    <div class="ans">
+                        <select name="" id="">
+                            <option value="">Yes, I agree.</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="qus">
+                    <div class="question">
+                        <h4>Do you believe Bangladesh is on the right path toward becoming a developed nation?</h4>
+                    </div>
+                    <div class="ans">
+                        <select name="" id="">
+                            <option value="">Yes, I agree.</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="qus">
+                    <div class="question">
+                        <h4>Do you believe Bangladesh is on the right path toward becoming a developed nation?</h4>
+                    </div>
+                    <div class="ans">
+                        <select name="" id="">
+                            <option value="">Yes, I agree.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- news section start -->
@@ -90,7 +152,7 @@
                         <div class="logo">
                             <img src="assets/image/al-jazeera.png" alt="">
                         </div>
-                        <time class="description" datetime="">Date: 05/01/2025 Time: 10.25 PM</time>
+                        <time class="description" datetime="">Date: 05/01/2025 &nbsp; Time: 10.25 PM</time>
                         <p class="description">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
                             with a certain degree of justification, be able to speak of humankind as civilized</p>
                         <button class="primary-btn">Read More</button>
@@ -102,7 +164,7 @@
                         <div class="logo">
                             <img src="assets/image/al-jazeera.png" alt="">
                         </div>
-                        <time class="description" datetime="">Date: 05/01/2025 Time: 10.25 PM</time>
+                        <time class="description" datetime="">Date: 05/01/2025 &nbsp; Time: 10.25 PM</time>
                         <p class="description">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
                             with a certain degree of justification, be able to speak of humankind as civilized</p>
                         <button class="primary-btn">Read More</button>
@@ -120,7 +182,7 @@
                         <div class="logo">
                             <img src="assets/image/al-jazeera.png" alt="">
                         </div>
-                        <time class="description" datetime="">Date: 05/01/2025 Time: 10.25 PM</time>
+                        <time class="description" datetime="">Date: 05/01/2025 &nbsp; Time: 10.25 PM</time>
                         <p class="description">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
                             with a certain degree of justification, be able to speak of humankind as civilized</p>
                         <button class="primary-btn">Read More</button>
@@ -161,9 +223,9 @@
                 <p class="description">We promise not to spam you!</p>
             </div>
          </section>
-
     </main>
 
+    <!-- footer section start -->
     <footer>
         <div class="top">
             <h2 class="section-title">Bangladesh 2.0</h2>
