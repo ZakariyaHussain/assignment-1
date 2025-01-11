@@ -291,10 +291,15 @@ main{
 }
 .qus{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 .question{
   width: 100%;
+}
+.question h4{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0; 
 }
 .question, .ans{
   background-color: #ffffff10;
