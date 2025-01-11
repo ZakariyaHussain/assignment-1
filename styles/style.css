@@ -308,3 +308,40 @@ body{
     margin-top: 12px;
     margin-bottom: 32px;
 }
+
+/* amount section */
+#donate{
+  margin: 80px auto;
+}
+.amount{
+    display: flex;
+    gap: 24px;
+}
+.donate-content{
+  text-align: center;
+  margin-bottom: 32px;
+}
+.amount-btn{
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  border: none;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #0E0E0E80;
+}
+input{
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: none;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 32px 0;
+  box-sizing: border-box;
+}
+.donate-input{
+  text-align: center;
+}
